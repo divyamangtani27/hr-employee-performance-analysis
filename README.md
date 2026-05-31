@@ -7,7 +7,6 @@ Symbiosis Institute of Technology, Pune·Batch 2025–29
 I am a first-year AIML student who genuinely enjoys working with data. I like finding patterns in datasets, understanding what the numbers are actually saying, and building things from scratch in Python. Right now I am focused on getting deeper into Data Science and Machine Learning — and slowly exploring areas like Computer Vision, Fintech AI, and what lies ahead in each of those directions.
 This project is one of my first steps toward that. I am not just learning for exams — I am learning because I want to build things that matter, and this is where that starts.
 
----
 
 # HR Employee Performance Analysis
 ### My First End-to-End Data Science Project
@@ -15,13 +14,11 @@ This project is one of my first steps toward that. I am not just learning for ex
 This is my first complete data science project —built during my first year of B.Tech AIML at SIT, Pune, as part of the Data Preprocessing and EDA Lab (DPEL).
 I went in knowing the basics of Python. I came out understanding how raw, messy data actually becomes something meaningful.
 
----
 
 ## Why This Project
 
 HR data is something everyone can relate to —employees, departments, performance, training. I wanted to work on a real dataset that had actual noise and missing values, not a clean textbook example. This dataset had both, and that made it genuinely interesting to work through.
 
----
 
 ## Dataset
 
@@ -29,7 +26,6 @@ HR data is something everyone can relate to —employees, departments, performan
 - **Size:** 17,417 employees×13 features
 - **Includes:** department, education, gender,age, trainings taken, KPIs met, awards won, avg training score,prior rating, etc 
 
----
 
 ## What I Actually Learned Building This
 
@@ -44,7 +40,6 @@ This project taught me things apart from the lectures:
 - **Z-Score** — using it not just as a formula but as an actual tool to spot outliers in each feature
 - **Random Forest Regressor** — training my first proper ML model, splitting data, and evaluating it with real metrics
 
----
 
 ## What does the  Analysis Covers
 
@@ -57,7 +52,6 @@ This project taught me things apart from the lectures:
 | E) Multivariate Analysis | pairplot, KDE plots, Spearman heatmap, covariance matrix |
 | F) Prediction Model | Random Forest Regressor with MSE, MAE, RMSE, R² evaluation |
 
----
 
 ## Key Findings
 
@@ -67,7 +61,6 @@ This project taught me things apart from the lectures:
 - Average training score stayed fairly consistent across all age groups — age alone doesn't predict performance
 - Sales & Marketing had the highest employee headcount; Bachelor's degree was the most common education level
 
----
 
 ## Model Results
 
@@ -81,13 +74,13 @@ This project taught me things apart from the lectures:
 
 > The R² is low because `prior_rating` (a 1–5 scale) doesn't have much variance to predict — the real value of this project is in the EDA and the patterns found through visualisation.
 
----
+
 
 ## Tools Used that i have used 
 
 Python · pandas · numpy · seaborn · matplotlib · scikit-learn
 
----
+
 
 ## How to Run It
 
@@ -96,8 +89,4 @@ Python · pandas · numpy · seaborn · matplotlib · scikit-learn
 3. Run the first cell → click Choose File → upload the CSV
 4. Runtime → Run All and you're good to go
 
----
-
-This is just a beginning for me, I would love to work on many more project and there's a lot more for me to build.
-
----
+### This is just the beginning — I would love to work on many more projects and there is a lot more ahead to learn and build.
